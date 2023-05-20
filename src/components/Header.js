@@ -5,7 +5,7 @@ const Header = () => {
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
         {}
-        <a href='#'>
+        <a href='home'>
           <img src={Logo} className="max-w-max  mx-auto lg:mx-0" alt=''/>
 
         </a>
