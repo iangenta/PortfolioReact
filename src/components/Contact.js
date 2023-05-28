@@ -77,7 +77,7 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className=' flex-1' action='https://formsubmit.co/fd170b4a678287d427d37db88ff3b3af' onSubmit={handleSubmit} method='POST' >
+            className=' flex-1' action='https://formsubmit.co/https:/gentaian2@gmail.com' onSubmit={handleSubmit} method='POST' >
 
             <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type='email' name='email' placeholder='Your email' onChange={handleChange} />
             {errors && errors.email && <span className='text-accent'>{errors.email}</span>}
