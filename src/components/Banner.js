@@ -27,7 +27,7 @@ const Banner = () => {
           </motion.div>
           <div className='flex flex-1 flex-col gap-x-8 lg:flex-column lg:items-center  gap-y-10 '>
           <motion.p variants={fadeIn('up', 0.5)} initial="hidden" whileInView={'show'} viewport={{once:false, amount:0.7}} className='mb-2 max-w-lg mx-auto lg:mx-0 '>
-            Entry-Level Full Stack Developer with expertise in data analytics and proficiency in developing effective applications. Seeking a position to utilize my skills and knowledge to help businesses meet their technological needs.
+          Freelance Full Stack Developer with a strong background in UX/UI design, data analysis, and web development. Offering expertise in creating impactful applications and a keen eye for user experience. Committed to utilizing my skills and knowledge to support businesses in meeting their technological needs. Open to new opportunities and excited to contribute to innovative projects.
           </motion.p>
           <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once:false, amount:0.7}}className='flex max-w-max gap-x-6 items-center mb-8 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>

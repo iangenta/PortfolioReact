@@ -7,17 +7,17 @@ const Services = () => {
   const services = [
     {
       name: 'UX/UI Design',
-      description: 'Incididunt ea enim dolor esse in ex est est aliquip. ',
+      description: 'Custom UI/UX design service to enhance your digital presence and user experience. Eye-catching, intuitive interfaces aligned with your goals. Transparent collaboration. Exceptional results. ',
       link: 'Learn more'
     },
     {
       name: 'Front end Development',
-      description: 'Exercitation consequat velit consectetur laborum occaecat quis.e',
+      description: 'Transforming designs into seamless web experiences. Expert coding and cutting-edge technologies for captivating user interfaces. Responsive, fast, and optimized websites tailored to your business. Elevate your online presence with our front-end development service.',
       link: 'Learn more'
     },
     {
       name: 'Analysis',
-      description: 'Incididunt ea enim dolor esse in ex est est aliquip. ',
+      description: 'Unlock the power of your data. We offer comprehensive data analysis solutions tailored to your business needs. Extract valuable insights, identify trends, and make data-driven decisions.Drive efficiency, optimize performance, and stay ahead of the competition with our data analysis service',
       link: 'Learn more'
     }
   ];

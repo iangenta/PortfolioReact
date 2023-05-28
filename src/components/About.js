@@ -19,7 +19,7 @@ const About = () => {
               <h3 className='h3 mb-4'>I'm a Freelance Developer
                 </h3>  
               <p className='mb-6'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              Experienced Freelance Full Stack Developer with a strong background in UX/UI design, data analytics, and web development. Skilled in developing robust applications and leveraging data insights to drive business growth. Committed to delivering high-quality solutions that meet clients' technological requirements. Open to new opportunities to apply my skills and contribute to the success of businesses.
                 </p>     
 
 
