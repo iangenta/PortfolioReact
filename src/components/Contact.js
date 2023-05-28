@@ -89,7 +89,7 @@ const Contact = () => {
             <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' placeholder='Your message'  value={form.message} name='message' onChange={handleChange} ></textarea>
             {errors && errors.message && <span className='text-accent'>{errors.message}</span>}
             <button className='btn btn-lg'>Send Message </button>
-            <input type="hidden" name="_next" value="http://localhost:3000"></input>
+            <input type="hidden" name="_next" value="https://iangenta.github.io/PortfolioReact/"></input>
             <input type="hidden" name="_captcha" value="false"></input>
           </motion.form>
 

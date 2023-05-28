@@ -12,7 +12,7 @@ const Services = () => {
     },
     {
       name: 'Front end Development',
-      description: 'Transforming designs into seamless web experiences. Expert coding and cutting-edge technologies for captivating user interfaces. Responsive, fast, and optimized websites tailored to your business. Elevate your online presence with our front-end development service.',
+      description: 'Transforming designs into seamless web experiences. Expert coding and cutting-edge technologies for captivating user interfaces. Elevate your online presence with our front-end development service.',
       link: 'Learn more'
     },
     {
@@ -29,7 +29,7 @@ const Services = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className=''  >
+          className=' flex-1 mb-12 lg:mb-0'  >
           <h2 className='h2 text-accent'>What I Do.</h2>
           <h3 className='h3 max-w-[455px] mb-16'>I'm a Freelance Front-end Developer with 2 years of experience.</h3>
           <button className='btn btn-sm'>See my work</button>
@@ -48,7 +48,7 @@ const Services = () => {
               services.map((service, idx) => {
                 const { name, description, link } = service;
                 return (
-                  <div key={idx} className='border-b border-white/20 h-[120px] mb-[36px] flex'>
+                  <div key={idx} className='h-[146px] mb-[38px] flex '>
                     <div className='max-w-[476px]'>
                       <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
                       <p className='font-secondary leading-tight'>{description}</p>

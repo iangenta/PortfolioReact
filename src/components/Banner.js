@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation'
 import {AnimatePresence, motion} from "framer-motion"
 import { fadeIn } from '../variants'
 const Banner = () => {
-  return <section className='min-h-[85vh] lg:min-h-[78vh] flex items center' id='home'>
+  return <section className='min-h-[85vh] lg:min-h-[78vh] flex items center ' id='home'>
     <div className='container mx-auto'>
 
       <div className='flex flex-col gap-y-0 lg:flex-row lg:items-center lg:gap-x-8  important!'>
@@ -30,10 +30,10 @@ const Banner = () => {
           Freelance Full Stack Developer with a strong background in UX/UI design, data analysis, and web development. Offering expertise in creating impactful applications and a keen eye for user experience. Committed to utilizing my skills and knowledge to support businesses in meeting their technological needs. Open to new opportunities and excited to contribute to innovative projects.
           </motion.p>
           <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once:false, amount:0.7}}className='flex max-w-max gap-x-6 items-center mb-8 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'>
-              Contact me
+            <button className=''>
+              <a href='#contact' className=' py-5 btn btn-lg btn-link'>Contact me</a>
             </button>
-            <a href='work' className='text-gradient btn-link '>My Portfolio</a>
+            <a href='https://github.com/iangenta' className='text-gradient btn-link '>My Portfolio</a>
           </motion.div>
 
           </div>
